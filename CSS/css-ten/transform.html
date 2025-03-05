@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: claibri;
+        }
+        .box{
+            width: 32%;
+            height: 300px;
+            background: red;
+            margin: 100px 300px;
+            position: relative;
+            perspective: 1200px;
+            color: white;
+            transform: rotate(40deg);
+            transform-style: preserve-3d;
+        }
+
+        .flipbox{
+            width: 100%;
+            height: 100%;
+            background: url(client-3.jpg);
+            background-size: 100%  100%;
+            transition: 1s;
+            transform-origin: top;
+            position: absolute;
+            top: 0;
+        }
+
+        .box:hover .flipbox{
+            transform:rotateX(75deg);
+        }
+        p{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Front End Coding</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deserunt consectetur aliquam illum voluptas
+             enim molestias sunt nulla, cumque aspernatur, neque repellendus! Dolorum soluta nisi non dolor cumque earum nemo!
+        </p>
+        <div class="flipbox"></div>
+    </div>
+</body>
+</html>

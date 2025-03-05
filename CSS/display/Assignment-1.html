@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-1</title>
+
+    <style>
+        *{
+            font-family: calibri;
+            padding: 0;
+            margin: 0  12%;
+            box-sizing: border-box;
+        }
+
+        .box{
+            width: 80%;
+            height: 600px;
+            background: lightblue;
+            border: 1px solid black;
+        }
+        .row{
+            width: 40%;
+            height: 600px;
+            flex-wrap: wrap;
+           
+        }
+        .box-1{
+            width: 100%;
+            height: 600px;
+            background-color: red;
+            margin-left: 300px;
+            position: relative;
+         /* top:100px; */
+            transition:.5s;
+    /*display: none;*/
+    /* opacity:0; */
+    /* visibility: hidden; */
+           
+        }
+        .box:hover .p{
+            top:0;
+            display: block;
+            opacity:1;
+            visibility: visible;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="row">
+            <div class="box-1">
+                <h2>Hello Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Hic nam adipisci nemo recusandae officiis at dignissimos, accusantium, 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quia quisquam quis sequi explicabo, molestias soluta
+                     veritatis doloribus nobis consequuntur omnis iusto fuga facere amet debitis vero officiis ea reprehenderit?
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo quo praesentium deleniti delectus voluptatem architecto, 
+                     voluptatibus quidem non voluptate dolorum dolore ea, ut cumque suscipit perspiciatis animi aliquid labore?
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+   
+    
+</body>
+</html>

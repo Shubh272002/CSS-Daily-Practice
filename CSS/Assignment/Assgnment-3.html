@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 70%;
+            height: 600px;
+            background: #f1f1f1;
+            margin: 0 15%;
+            padding: 10px;
+           
+        }
+        header{
+            width: 100%;
+            height: 60px;
+            background: mediumseagreen;
+            padding: 10px;
+
+        }
+
+        .row{
+            width:100%;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: space-between;
+            padding:10px;
+        }
+        .col-1{
+            width: 22%;
+            height: 400px;
+            background: #f1f1f1;
+            padding-right: 15px;    
+        }
+        .col-2{
+            width: 56%;
+            height: 430px;
+            background: lightsalmon;
+            margin-right: 15px;
+        }
+        
+        .col-1 .subCo1{
+            width:100%;
+            height:300px;
+            background:orange;
+            /* margin-top: 50px; */
+           
+        }
+        .col-1  .subCo2{
+            width: 100%;
+            height: 120px;
+            background: yellow;
+            margin-top: 10px;
+        }
+        .col-3{
+            width: 20%;
+            height: 425px;
+            background: gold;
+            /* padding-right: 15px; */
+            margin-bottom: 10px;
+            
+        }
+        footer{
+            width: 100%;
+            height: 60px;
+            background: blueviolet;
+            margin-bottom: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+
+   <div class="container">
+    <header></header>
+    <div class="row">
+        <div class="col-1">
+            <div class="subCo1"></div>
+            <div class="subCo2"></div>
+        </div>
+        <div class="col-2"></div>
+        <div class="col-3"></div>
+    </div>
+    <footer></footer>
+   </div>
+    
+</body>
+</html>

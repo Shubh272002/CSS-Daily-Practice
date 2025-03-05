@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linear-gradient</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: calibri;
+        }
+        body{
+            background: gray;
+
+        }
+        main{
+            width: 90%;
+            height: 2500px;
+            background: white;
+            margin: 0 5%;
+        }
+        header{
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(45deg, red 50%, orange 50%);
+        }
+        .logo{
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(blue,orange,red,yellow);
+        }
+        .slider{
+            width: 100%;
+            height: 500px;
+            background: linear-gradient(brown,red,green,yellow,white,maroon),url(client-3.jpg);
+            background-blend-mode: color;
+            background-size: 100%  100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="logo">SHubh VErma</div>
+        </header>
+        <div class="slider"></div>
+    </main>
+</body>
+</html>

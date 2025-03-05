@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: calibri;
+    box-sizing: border-box;
+}
+
+.col-md-1{width:8.333333333%;}
+.col-md-2{width:16.66666667%;}
+.col-md-3{width:25%;}
+.col-md-4{width:33.33333333%;}
+.col-md-5{width:41.66666667%;}
+.col-md-6{width:50%;}
+.col-md-7{width:58.33333333%;}
+.col-md-8{width:66.66666667%;}
+.col-md-9{width:75%;}
+.col-md-10{width:83.33333333%;}
+.col-md-11{width:91.66666667%;}
+.col-md-12{width:100%;}
+
+div[class*="col"]{
+    padding: 0 15px;
+}
+.mh{
+    min-height: 200px;
+}
+.px{
+    padding-left:20px ;
+    padding-right: 20px;
+}
+.py{
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+}
+.my{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.courseContainer{
+    width: 100%;
+    padding: 5%;
+    background: #f1f1f1;
+}
+.heading{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.more{
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    line-height: 50px;
+}
+.card{
+    width: 100%;
+}
+
+.my{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}

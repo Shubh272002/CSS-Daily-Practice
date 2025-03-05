@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After Before pseudo Element</title>
+    <style>
+        *{
+            font-family: calibri;
+        }
+        p::before{
+            content: "+91-";
+
+        }
+        p::after{
+            content:  "  Noida";
+        }
+        .shv::after{
+            content: "Bihar";
+            color: red;
+        }
+        h2::before{
+            content: "Mobile";
+            color: red;
+        }
+        h2::after{
+            content: "- Number";
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h2> </h2>
+    <p class="shv">9244758847</p>
+    <p>9244758847</p>
+    <p>9244758847</p>
+    <p class="shv">9244758847</p>
+    <p>9244758847</p>
+    <p>9244758847</p>
+    <p class="shv">9244758847</p>
+    <p>9244758847</p>
+    <p>9244758847</p>
+    <p class="shv">9244758847</p>
+    <p>9244758847</p>
+    <p class="shv">9244758847</p>
+</body>
+</html>
