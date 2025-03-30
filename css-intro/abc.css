@@ -1,0 +1,17 @@
+      /*Default property*/
+      h2{color:brown}
+      p{
+          color:red;
+      }
+
+      /*optional Property*/
+      .line-height{
+          line-height:30pt;
+      }
+
+      /*Multi tag property*/
+      txt{
+          font-weight: bold;
+          font-style:italic;
+          text-decoration: underline;
+      }
