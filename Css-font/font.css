@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: abc;
+    src: url('mrsmonstercondital.ttf');
+}
+
+
+h1{
+    font-family: abc;
+}
+p{
+    font-family:sans-serif;
+    font-weight:lighter;
+    font-size:12pt;/*px,em,rem,in,vh,vw,%*/
+    font-style:italic;
+
+    text-align: justify;
+    text-indent: 60pt;
+    text-transform: uppercase;/*capitalize*/
+    text-decoration: underline;/*none,overline,line-through*/
+    line-height:30pt;
+    word-spacing:5pt;
+    letter-spacing: 5pt;
+    color:red;
+    text-shadow:10px 10px 5px black;
+}
