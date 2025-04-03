@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            font-family: calibri;
+        }
+        p::before{
+            content:"+91-";
+            color:red;
+            text-decoration: underline;
+        }
+
+        p::after{
+            content:" Noida"
+        }
+
+        .abc::after{
+            content:" Delhi";
+            color:blue;
+            text-decoration: overline;
+        }
+
+        h2::before{
+            content:"Mobile";
+            color:red;
+        }
+
+        h2::after{
+            content:"-Number";
+            color:blue;
+        }
+    </style>
+
+</head>
+<body>
+    <h2></h2>
+    <p class="abc">9632587412</p>
+    <p>9632587412</p>
+    <p>9632587412</p>
+    <p class="abc">9632587412</p>
+    <p>9632587412</p>
+    <p>9632587412</p>
+    <p class="abc">9632587412</p>
+    <p>9632587412</p>
+    <p>9632587412</p>
+    <p class="abc">9632587412</p>
+    <p>9632587412</p>
+</body>
+</html>
