@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: calibri;
+        }
+p{
+    text-align: center;
+}
+        
+
+p[class*="flower"]{
+    text-decoration: underline;
+}
+      
+p[class^="flower"]{
+    text-decoration: overline;
+}
+
+p[class~="flower"]{
+    text-decoration: line-through;
+}
+
+p[class|="flower"]{
+    color:rgb(248, 204, 9);
+}
+
+p[class$="flower"]{
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <h1 align="center" class="txt">Online Computer Education</h1>
+
+    <p class="txt flower">HTML</p>
+    <p class="flower txt">CSS</p>
+    <p class="txtflower">JavaScript</p>
+    <p class="txt-flower">jquery</p>
+    <p class="flower-txt">Json</p>
+    <p class="txt">PHP</p>
+    <p class="txt">Java</p>
+    <p class="txt">Python</p>
+
+
+</body>
+</html>
