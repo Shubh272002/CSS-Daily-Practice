@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width:70%;
+    margin:0 15%;
+    padding:20px;
+    border:1px solid black;
+    float:left;
+}
+
+.row{
+    width:100%;
+    padding:20px;
+    border:1px solid black;
+    float:left;
+}
+
+.col-1{
+    width:20%;
+    height:100px;
+    background:orange;
+    float:left;
+}
+
+.col-2{
+    width:30%;
+    height:100px;
+    background:rgb(8, 247, 120);
+    float:left;
+    margin:0 2.5%
+}
+
+.col-3{
+    width:45%;
+    height:100px;
+    background:rgb(245, 66, 177);
+    float:right;
+}
